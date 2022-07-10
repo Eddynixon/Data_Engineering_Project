@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: tfl
+    description: The public TfL data (or 'open data') released here is for open data users to use in their own software and services.
+    database: analytics
+    schema: ANALYTICS_PROJECT
+    tables:
+      - name: TFL_TABLE
+        description: This is expected to be used to present customer travel information in innovative ways.
